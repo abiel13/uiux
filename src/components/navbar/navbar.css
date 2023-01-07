@@ -1,0 +1,142 @@
+
+
+.nav{
+    display: flex;
+    padding: .5rem 6rem;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+
+.nav__links{
+    display: flex;
+    padding: .3rem 1rem;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__links_logo{
+    font-weight: bolder;
+    letter-spacing: 3px ;
+    font-family: sans-serif; 
+    color: white;
+}
+
+.nav_links_container{
+    display: flex;
+    gap: 20px;
+}
+
+.nav_links_container a{
+    color: white;
+   font-weight:  500;
+   letter-spacing: 3px;
+   text-transform: capitalize;
+   cursor: pointer;
+}
+
+.nav__signs{
+    display: flex;
+ gap: 10px;
+ align-items: center;
+}
+
+.nav__signs p{
+    color: white;
+}
+
+.nav__signs button{
+    background-color: #ff4820;
+    padding: 10px 23px;
+    color: white;
+    font-weight: bolder;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.nav_menu{
+    display: none;
+}
+
+.menu_items_links{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 10px;
+    color: white;
+    font-size: 1.4rem;
+}
+
+.menu__signs {
+    margin-top: .4rem;
+    display: flex;
+flex-direction: column;
+align-items: flex-end;
+gap:10px;
+}
+
+.menu__signs p{
+    font-size: 1.4rem;
+    color: white;
+}
+
+.menu__signs button{
+    background-color: #ff4820;
+    padding: 10px 23px;
+    color: white;
+    font-weight: bolder;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer; 
+}
+
+.menu_items{
+position: absolute;
+min-width: 216px;
+border-radius: 12px;
+top: 10%;
+background:var(--color-footer);
+padding: 1rem 2rem;
+right: 0px;
+display: flex;
+flex-direction: column;
+justify-content: end;
+align-items: flex-end;
+}
+
+@media screen and (max-width:980px) {
+    .nav{
+        padding: 0.5rem 2rem;
+    }
+    
+    .nav_links_container{
+        display: none;
+    }
+    .nav__signs{
+        display:  flex;
+    }
+    .nav_menu{
+        display: flex !important;
+    }
+}
+
+
+@media screen and (max-width:700px) {
+    .nav{
+        padding: 0.5rem 2rem;
+    }
+    
+    .nav_links_container{
+        display: none;
+    }
+    .nav__signs{
+        display:  none;
+    }
+    .nav_menu{
+        display: flex !important;
+    }
+}

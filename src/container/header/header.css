@@ -1,0 +1,142 @@
+.header{
+margin-top: 2rem;
+    display: flex;
+}
+.header__content{
+    flex:1; 
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-inline: 6rem;
+}
+
+.header__content h1{
+    font-weight: bold; 
+    letter-spacing: .4rem;
+    font-size: 3rem;
+   
+    line-height: 56px;
+}
+
+.header__content p{
+    font-size: 1rem;
+    color: var(--color-text);
+    line-height: 27px;
+}
+
+.header__input{
+    width: 100%;
+    /* flex: 1; */
+    display: flex;
+    margin-top: 1.2rem;
+}
+
+.header__input input{
+    width: 100%;
+    flex: 2;
+    color: white;
+    border-right: none;
+    outline:none;
+    background: var(--color-footer);
+    min-height: 3rem;
+    border: 2px solid var(--color-footer);
+    padding-inline-start: .5rem;
+    /* margin-top: 1.2rem; */
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.header__input button{
+   cursor: pointer;
+    flex: 0.6;
+    background: #ff4820;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    font-weight: bolder;
+    outline: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.header__people{ 
+     flex: 1;
+     width: 100%;
+    margin-block: 1.3rem;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.header__ai{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header__ai img{
+    width: 100%;
+    height: 100%;
+}
+
+@media  screen and (max-width:980px) {
+    .header{
+        flex-direction: column;
+    }
+    .header__content{
+        margin-inline: 3rem;
+    }
+}
+
+@media  screen and (max-width:740px) {
+    .header__content p{
+        font-size: .9rem;
+        line-height: 1.4rem;
+    }
+    .header__content h1{
+       font-size: 2.5rem;
+       line-height:48px;
+       text-align: start;
+    }
+
+    .header__input button{
+        flex: 1;
+        width: 100%;
+        font-weight:600 !important;
+        font-size: 1rem;
+    }
+
+    .header__people{
+        flex-direction: column;
+        align-items: center;
+      
+    }
+}
+
+@media  screen and (max-width:450px) {
+    .header__content p{
+        font-size: .8rem;
+        line-height: 1.4rem;
+    }
+    .header__content h1{
+       font-size: 2rem;
+       line-height:36px;
+       text-align: start;
+    }
+
+    .header__input button{
+        flex: 1;
+        width: 100%;
+        font-weight:600 !important;
+        font-size: .8rem;
+    }
+
+    .header__people{
+        flex-direction: column;
+        align-items: center;
+      
+    }
+}
