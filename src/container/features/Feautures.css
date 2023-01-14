@@ -1,0 +1,22 @@
+.whatCrypt__Feautures {
+    display:flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-direction: row;
+}
+
+.Feautures__heading{
+    flex:1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: left;
+    flex-direction: column;
+}
+.Feautures__features__container{
+ flex: 1.5;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}

@@ -4,7 +4,7 @@ import './what.css'
 
 function WhatCrypt() {
   return (
-    <div className='whatCrypt'>
+    <div className='whatCrypt section__padding'>
 <div className="whatCrypt__Feautures">
   <Features title={'What is CryptAi'} text={'Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, aspernatur cumque ex nemo Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, aspernatur cumque ex nemo asperiores quaerat  asperiores quaerat.'} />
 </div>

@@ -1,4 +1,5 @@
 import React from "react";
+import './Feautures.css';
 import { Features } from "../../components";
 
 function Feautures() {
@@ -26,8 +27,7 @@ const featureData =[{
         <h1 className="gradient__text">
           The Future is Now u just Need to realise it. Step into the future
           Today.
-          <p>Request Early Access to Get Started</p>
-        </h1>
+           </h1><p>Request Early Access to Get Started</p>
       </div>
       <div className="Feautures__features__container">
         {
