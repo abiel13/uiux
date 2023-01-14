@@ -83,8 +83,28 @@
 }
 
 @media screen and (max-width:550px) {
+.whatCrypt{
+  padding: 1rem;
+}
+
+.whatCrypt__heading{
+  flex-direction: column !important;
+
+}
+
+.whatCrypt__heading h1{
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.whatCrypt__heading p{
+  font-size: .9rem;
+  margin-top: .4rem;
+}
+
   .whatCrypt__Feautures .whatCrypt__Features{
     flex-direction:column !important;
+    align-items: center;
   }
   
 }
