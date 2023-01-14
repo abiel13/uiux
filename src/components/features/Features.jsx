@@ -1,9 +1,17 @@
 import React from 'react'
 import './features.css'
 
-function Features() {
+function Features({text , title}) {
   return (
-    <div>Features</div>
+    <div className='whatCrypt__Features'>
+      <div className='whatCrypt__Features__title'>
+        <div />
+        <h1>{title}</h1>
+      </div>
+      <div className='whatCrypt__Features__text'>
+        <div>{text}</div>
+      </div>
+    </div>
   )
 }
 
