@@ -4,7 +4,7 @@ import './possibility.css'
 
 function Possibility() {
   return (
-    <div className='whatCrypt__Possibility section__padding id='possibility'>
+    <div className='whatCrypt__Possibility section__padding ' id='possibility'>
       <div className="possibility__image ">
         <img src={image} alt="" />
       </div>
