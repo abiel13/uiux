@@ -13,10 +13,37 @@
     text-align: left;
     flex-direction: column;
 }
+
+.Feautures__heading p{
+    color: var(--color-subtext);
+    margin-top: 2rem;
+}
 .Feautures__features__container{
- flex: 1.5;
+ flex: 2.5;
+
     display: flex;
-    align-items: flex-start;
-    justify-content: center;
+    gap: 10px;
+    margin-left: 1rem;
+    align-items: column;
+    justify-content: flex-start;
     flex-direction: column;
+}
+
+@media screen and (max-width:990px){
+    .whatCrypt__Feautures{
+        flex-direction: column !important;
+         
+    }
+
+    .Feautures__heading{
+        margin:0 0 2rem 0;
+    }
+}
+
+@media screen and (max-width:550px){
+   
+
+    .Feautures__heading h1{
+    font-size: 1.5rem;
+    }
 }

@@ -1,0 +1,44 @@
+.whatCrypt__Possibility{
+    display: flex;
+    
+}
+.possibility__image{
+    flex:1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.possibility__image img{
+    width: 100%;
+    height: 100%;
+}
+
+.possibility__content{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+
+.possibility__content h4{
+    color:var(--color-text);
+}
+.possibility__content p{
+    color: var(--color-text);
+}
+
+
+.possibility__content h4:last-child{
+    color:var(--color-subtext);
+    margin-top: 1rem;
+}
+
+
+@media screen and (max-width:900px) {
+    .whatCrypt__Possibility{
+        flex-direction: column;
+        gap: 20px;
+    }
+}

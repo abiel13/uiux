@@ -10,9 +10,15 @@
   --color-text: #81AFDD;
   --color-subtext: #FF8A71;
 }
+body{
+  overflow-x: hidden;
+}
 
 *{
   font-family: var(--font-family);
+}
+html{
+  scroll-behavior: smooth;
 }
 
 a{

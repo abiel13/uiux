@@ -15,6 +15,7 @@
  flex: 2;
     color:var(--color-text);
     max-width:600px;
+  
 }
 
 .whatCrypt__Features__title div{
@@ -25,7 +26,7 @@
     border-radius: 5px;
 }
 
-@media screen and (max-width:550px) {
+@media screen and (max-width:990px) {
     .whatCrypt__Features__text div{
         text-align: center;
     }
