@@ -5,7 +5,7 @@ import {blog01 ,blog02, blog03, blog04, blog05} from './import'
 
 function Blog() {
   return (
-    <div className="whatCrypt__Blog section__padding">
+    <div className="whatCrypt__Blog section__padding"  id='blog'>
       <div className="Blog__heading">
         <h1 className="gradient__text">
           There's a lot happening and we are blogging about it

@@ -22,7 +22,7 @@ const featureData =[{
 ]
 
   return (
-    <div className="whatCrypt__Feautures section__padding">
+    <div className="whatCrypt__Feautures section__padding " id='features'>  
       <div className="Feautures__heading">
         <h1 className="gradient__text">
           The Future is Now u just Need to realise it. Step into the future
