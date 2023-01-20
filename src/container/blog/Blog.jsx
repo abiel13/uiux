@@ -12,12 +12,12 @@ function Blog() {
         </h1>
       </div>
       <div className="Blog__container">
-        <div className="Blog__container-groupA"><Article imgUrl={blog01}/></div>
+        <div className="Blog__container-groupA"><Article imgUrl={blog01} date='September 13th 2020' title='explore the Crypt Ai Liabary . Crypt Ai is the Future'/></div>
         <div className="Blog__container-groupB">
           <Article imgUrl={blog02} date='September 13th 2020' title='explore the Crypt Ai Liabary . Crypt Ai is the Future'/>
-           <Article imgUrl={blog03} date='September 13th 2020' title='explore the Crypt Ai Liabary . Crypt Ai is the Future'/> 
-           <Article imgUrl={blog04} date='September 13th 2020' title='explore the Crypt Ai Liabary . Crypt Ai is the Future'/> 
-           <Article imgUrl={blog05} date='September 13th 2020' title='explore the Crypt Ai Liabary . Crypt Ai is the Future'/>
+           <Article imgUrl={blog03} date='September 13th 2021' title='explore the Crypt Ai Liabary . Crypt Ai is the Future'/> 
+           <Article imgUrl={blog04} date='September 13th 2022' title='explore the Crypt Ai Liabary . Crypt Ai is the Future'/> 
+           <Article imgUrl={blog05} date='September 13th 2023' title='explore the Crypt Ai Liabary . Crypt Ai is the Future'/>
         </div>
       </div>
     </div>
